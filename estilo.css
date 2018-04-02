@@ -1,0 +1,142 @@
+/* 
+    Created on : 22-sep-2017, 10:02:03
+    Author     : fede
+*/
+
+a.alta{
+    text-decoration:none;
+    color:green;
+}
+
+a.listado{
+    text-decoration:none;
+    color:blue;
+}
+
+a.procedimientos{
+    text-decoration:none;
+    color:brown;
+}
+
+body{
+    text-align: center;
+    background-color: gainsboro;
+}
+
+body.procedimientos{
+    text-align: left;
+}
+
+header{
+    alignment-adjust: center;
+}
+
+h2.alta{
+    color: green;
+}
+
+h2.listado{
+    color: blue;
+}
+
+h2.procedimientos{
+    color:brown;
+}
+
+h3{
+    text-align:  left;
+}
+
+input{
+    width: 15em;
+    text-align: center;
+}
+
+input[name=añadir]{
+    background-color:  greenyellow;
+}
+
+input[name=acceder]{
+    background-color:  brown;
+    color: burlywood; 
+}
+
+input[name=alta]{
+    background-color:  greenyellow;
+}
+
+input[name=modificar]{
+    background-color:  orange;
+    
+}
+
+input[type=submit]{
+    width: 7em;
+}
+input.baja{
+    background-color: red;
+}
+input.seleccionar{
+    background-color:  aquamarine;
+}
+input.codDeportista{
+    visibility: collapse;
+}
+
+table.portada{
+   border : 2px solid black;
+   background-color: brown;
+   margin: 0 auto;
+   text-align: center;
+   
+}
+
+table.proce2_1, table.proce2{
+   position: absolute;
+   top: 320px;
+}
+
+table.proce2_1{
+   position: absolute;
+   left: 300px;
+}
+
+
+.proce3{
+   position: absolute;
+   top: 380px;
+}
+
+table.proce3_1{
+   position: absolute;
+   top: 470px;
+   left: 300px;
+}
+
+.funcion,.funcion_{
+    position: absolute;
+    top: 510px;
+}
+
+.funcion_{
+    position:absolute;
+    top: 600px;
+    left: 300px;
+}
+
+th{
+    border : 2px solid black;
+}
+
+td{
+    border : 2px solid black;
+}
+
+td.autor{
+    text-align: left;
+    background-color: burlywood;
+}
+
+td.portada{
+    background-color: burlywood;
+}
